@@ -1,0 +1,99 @@
+body {
+	background-color: #171c28;
+	font-family: 'Noto Sans TC', sans-serif;
+	padding: 128px 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+p {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 100;
+}
+
+.about-titles > p {
+	font-size: 24px;
+}
+
+.contact {
+	font-size: 16px;
+	margin-top: 64px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 64px;
+	margin: 128px 0;
+}
+
+.background {
+	display: flex;
+}
+
+.background > .content > p {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 2;
+}
+
+.background > .content > p > strong {
+	opacity: 100%;
+	color: #fff;
+	margin: 0 4px;
+}
+
+.section-title {
+	color: #007bff;
+	font-size: 16px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	min-width: 360px;
+}
+
+.skills-col > p {
+	font-size: 12px;
+	opacity: 70%;
+	margin-right: 64px;
+}
+
+.skills-col > .field-name {
+	font-size: 16px;
+	font-weight: bold;
+	opacity: 100%;
+}
+
+.section {
+	margin-top: 96px
+}
+
+.company-name {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.job-title {
+	font-size: 14px;
+	opacity: 50%;
+}
+
+.duration {
+	font-family: monospace;
+	opacity: 60%;
+	font-size: 14px;
+}
+
+.flex {
+	display: flex;
+}
+
+.w-full {
+	width: 100%;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
